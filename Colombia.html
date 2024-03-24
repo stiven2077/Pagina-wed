@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <img src="https://www.shutterstock.com/image-vector/colombia-cartoon-vector-doodle-designs-260nw-2135768265.jpg" alt="cartel promocional del turismo en Colombia" width="300" height="200">
+    <style>
+        /* Estilos CSS */
+        body {
+            background-color: #FFFFFF; /* Color de fondo gris claro */
+            color: #333; /* Color de texto gris oscuro */
+        }
+        
+        h1, h2 {
+            color: #D1C4E9; /* Color de encabezado azul */
+        }
+        
+        nav {
+            background-color: #D1C4E9 ; /* Color de fondo de navegación azul */
+            padding: 10px;
+        }
+        
+        .lista {
+            list-style-type: upper-roman;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .lista li {
+            margin-bottom: 10px;
+        }
+        
+        .lista li a {
+            color: #FFFFFF ; /* Color de enlace blanco */
+            text-decoration: none;
+        }
+        
+        .lista li a:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            background-color: #D1C4E9; /* Color de fondo del pie de página azul */
+            color: #fff; /* Color de texto blanco */
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;/*Central el contenido del pie de pagina*/
+        }
+
+        /*Estilos para resaltar numeros romanos */
+        .lista li::before{
+            content:attr(date-roman);/*Utilizar el valor del atributo ´data-roman´*/
+            color:#B71C1C;/*Color para resaltar los numeros romanos*/
+            font-weight:5px;/*Espacio entre el numero romano y el contenido del elemento de la lista*/
+        }
+
+        /* Estilos para centrar la imagen */
+        img {
+            display: block; /* Asegura que la imagen se muestre como un bloque */
+            margin: 0 auto; /* Establece los márgenes automáticos para centrar horizontalmente */
+        }
+    </style>
+</head>
+<body>
+    <h1>Mi Turismo</h1>
+    <p>"Colombia, ubicada en el extremo norte de América del Sur, es un país diverso y vibrante conocido por su rica cultura, paisajes impresionantes y gente acogedora. Desde las majestuosas montañas de la cordillera de los Andes hasta las exuberantes selvas amazónicas y las hermosas playas en sus costas caribeñas y del Pacífico, Colombia ofrece una variedad de paisajes y ecosistemas únicos. Su rica historia colonial y precolombina se refleja en sus ciudades históricas como Cartagena y Bogotá, mientras que su colorida cultura se manifiesta en su música, danza y festivales animados. Con una gastronomía diversa que incluye platos tradicionales como la bandeja paisa y el ajiaco, Colombia es un destino que cautiva los sentidos y deja una impresión duradera en aquellos que tienen la suerte de explorarlo."
+
+Esta descripción captura la esencia de la belleza y diversidad de Colombia. ¿Hay algo más en lo que pueda ayudarte?</p>
+    <nav>
+        <ul class="lista">
+            <li><a href="file:///C:/Users/SALA01-PC5/Documents/Pagina%20wed/Por%20Qu%C3%A9%20visitar%20Colombia.html">Por Qué viajar a Colombia</a></li>
+            <li><a href="file:///C:/Users/SALA01-PC5/Documents/Pagina%20wed/Destinos%20Populares.html">Destinos populares</a></li>
+            <li><a href="file:///C:/Users/SALA01-PC5/Documents/Pagina%20wed/Que%20hacer%20en%20Colombia.html">Que hacer en Colombia</a></li>
+            <li><a href="file:///C:/Users/SALA01-PC5/Documents/Pagina%20wed/Galeria%20de%20fotos%20Colombia.html">Galeria de fotos Colombia</a></li>
+            <li><a href="file:///C:/Users/SALA01-PC5/Documents/Pagina%20wed/Consejos%20para%20viajar.html">Consejos para viajar</a></li>
+            <li><a href="file:///C:/Users/SALA01-PC5/Documents/Pagina%20wed/tradiciones%20de%20colombia.html">tradiciones de colombia</a></li>
+            <li><a href="file:///C:/Users/SALA01-PC5/Documents/Pagina%20wed/cultura%20en%20colombia.html">cultura y comida de colombia</a></li>
+            <li><a href="file:///C:/Users/SALA01-PC5/Documents/Pagina%20wed/clima.html">Clima de Colombia</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Bienvenido a nuestro sitio web de turismo en Colombia</h2>
+        <p>Un territorio acogedor, donde siempre es verano: temperaturas cálidas, brisa refrescante, playas paradisíacas y gente alegre, hogar de culturas fascinantes, indígenas y raizales, de carnavales y música, de sitios arqueológicos sagrados, del imaginario de García Márquez y de la ciudad colonial más hermosa del mundo.</p>
+        <p class="center">Explora la diversidad y belleza de nuestro país!</p>
+    <footer>
+        <p> 2024 Turismo en Colombia. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
